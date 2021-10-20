@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
 </head>
 <body>
     <style type="text/css">
@@ -17,6 +17,7 @@
             border-radius: 5px;
             padding: 4px;
             border:solid thin #aaa;
+            width: 100%;
         }
 
         #button{
@@ -39,10 +40,10 @@
 <div id="box">
     <form action="" method="POST">
         <div style="font-size:20px; margin: 10px; color: white;">Login</div>
-        <input type="text" name="user_name" id=""><br><br>
-        <input type="password" name="password" id=""><br><br>
-        <input type="submit" value="Login"><br><br>
-        <a href="signup.php">Sign Up</a>
+        <input id="text" type="text" name="user_name" id=""><br><br>
+        <input id="text" type="password" name="password" id=""><br><br>
+        <input id="button" type="submit" value="Login"><br><br>
+        <a href="signup.php">Click to Sign Up</a>
     </form>
 </div>
     
