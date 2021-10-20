@@ -13,6 +13,7 @@
     <title>CRUD</title>
 </head>
 <body>
+    <a href="login.php">Login</a>
     <a href="logout.php">Log Out</a>
     <h1>This is Home Page!</h1>
 

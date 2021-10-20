@@ -34,6 +34,17 @@
         }
 
     </style>
+
+
+<div id="box">
+    <form action="" method="POST">
+        <div style="font-size:20px; margin: 10px; color: white;">Login</div>
+        <input type="text" name="user_name" id=""><br><br>
+        <input type="password" name="password" id=""><br><br>
+        <input type="submit" value="Login"><br><br>
+        <a href="signup.php">Sign Up</a>
+    </form>
+</div>
     
 </body>
 </html>
